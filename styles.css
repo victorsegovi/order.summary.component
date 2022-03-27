@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+.background img{
+position: absolute;
+z-index: -1;
+}
+
+.card-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 15px;
+    width: 355px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card__image, .card__description, .card__payment{
+    height: 33.33%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card__description, .card__payment{
+    margin: 0 20px 20px 20px ;
+}
+
+img{
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+h1{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.description, .price, .cancel{
+    color: hsl(224, 23%, 55%);
+}
+
+.description, .card__payment, .payment-description{
+    margin: 10px 0;
+}
+
+
+.payment-description{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.music-icon{
+    margin-right: 10px;
+}
+
+.plan{
+    margin: 0 30px 0 10px;
+}
+
+.plan-time{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+button{
+    min-width: 100%;
+    padding: 15px;
+    background-color:hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin: 20px 0;
+    box-shadow: 0px 15px 15px #e6e4f9;
+}
+
+.cancel{
+    font-weight: 900;
+}
+
+button:hover{
+    background-color:  hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+p:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+a:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+
