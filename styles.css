@@ -117,7 +117,7 @@ button:hover{
     cursor: pointer;
 }
 
-.plan p:hover{
+.payment-cancel p:hover{
     color: hsl(223, 47%, 23%);
     cursor: pointer;
 }
